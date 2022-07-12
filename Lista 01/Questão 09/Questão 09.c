@@ -10,6 +10,6 @@ printf("Digite o valor de uma temperatura em graus Celsius:\n");
 scanf("%f", &tempC);
 conversao = tempC + 273.15;
 
-printf("O valor da temperatura em graus Kelvin eh:\n%.2f", conversao);
+printf("O valor da temperatura em graus Kelvin eh:\n%.2fK", conversao);
 return 0;
 }
